@@ -42,9 +42,9 @@
   "homepage": "https://vera.cryptobriefing.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cryptobriefing/vera-mcp.git"
+    "url": "git+https://github.com/cryptobriefing-labs/vera-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/cryptobriefing/vera-mcp/issues"
+    "url": "https://github.com/cryptobriefing-labs/vera-mcp/issues"
   }
 }

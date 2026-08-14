@@ -23,7 +23,7 @@ You need a Vera API key (starts with `vera_`). Get one at
 **[vera.cryptobriefing.com](https://vera.cryptobriefing.com)**.
 
 ```bash
-git clone https://github.com/cryptobriefing/vera-mcp.git
+git clone https://github.com/cryptobriefing-labs/vera-mcp.git
 cd vera-mcp
 npm install
 npm run build
