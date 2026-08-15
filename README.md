@@ -85,4 +85,4 @@ messages.
 
 ## License
 
-UNLICENSED — © Crypto Briefing.
+MIT © Crypto Briefing. See [LICENSE](LICENSE).
