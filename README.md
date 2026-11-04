@@ -45,7 +45,7 @@ Add to your MCP config (e.g. `claude_desktop_config.json`):
     "vera": {
       "command": "node",
       "args": ["/absolute/path/to/vera-mcp/dist/index.js"],
-      "env": { "VERA_API_KEY": "vera_your_key_here" }
+      "env": { "VERA_API_KEY": "cbapi_your_key_here" }
     }
   }
 }
@@ -76,7 +76,7 @@ Ask your agent things like:
 ```bash
 npm run dev     # run from source with tsx (stdio server)
 npm run build   # compile TypeScript -> dist/
-VERA_API_KEY=vera_... node scripts/smoke.mjs   # end-to-end smoke test against live API
+VERA_API_KEY=cbapi_... node scripts/smoke.mjs   # end-to-end smoke test against live API
 ```
 
 Rate limits (Founding tier): 2 req/s sustained, 10 req/s burst, 50k/day. The
