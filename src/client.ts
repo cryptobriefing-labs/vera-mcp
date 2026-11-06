@@ -40,9 +40,10 @@ export class VeraClient {
         "auth",
       );
     }
-    if (!key.startsWith("vera_")) {
+    // New keys start with cbapi_; keys issued before 2026-11-04 start with vera_ and keep working.
+    if (!key.startsWith("cbapi_") && !key.startsWith("vera_")) {
       throw new VeraError(
-        'VERA_API_KEY does not look like a Vera key (expected a "vera_" prefix). ' +
+        'VERA_API_KEY does not look like an API key (expected a "cbapi_" or "vera_" prefix). ' +
           "Double-check the value you configured.",
         "auth",
       );
